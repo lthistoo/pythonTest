@@ -8,7 +8,9 @@ from web_test.index import Index
 
 class Test_ces(Index):
 
-
+    """
+    测试用例
+    """
     def test_register(self):
         result = self.goto_register().register()
         assert result
